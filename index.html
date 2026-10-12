@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Portfolio of Riya Goel, a Computer Science, Data Science, and Mathematics student at the University of Wisconsin-Madison.">
+  <title>Riya Goel | Software Engineering and Data Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Top area: site name and navigation -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <p class="brand"><a href="index.html">Riya Goel<span class="dot">.</span></a></p>
+      <nav class="site-nav" aria-label="Main">
+        <ul>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#work-experience">Work Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- Hero section (background photo is set in styles.css) -->
+    <section id="hero" class="hero">
+      <div class="container hero-content">
+        <h1>Hi, I'm Riya Goel</h1>
+        <p class="hero-subhead">I study Computer Science, Data Science, and Mathematics at the University of Wisconsin-Madison, and I love turning slow, manual processes into simple tools.</p>
+        <p class="hero-actions">
+          <a class="btn btn-dark" href="#work-experience">View my work experience</a>
+          <a class="btn btn-outline" href="#projects">See my projects</a>
+        </p>
+      </div>
+    </section>
+
+    <!-- Three features -->
+    <section id="skills" class="features">
+      <div class="container">
+        <h2 class="section-title">What I Do</h2>
+
+        <div class="features-grid">
+          <article class="feature">
+            <div class="icon" aria-hidden="true">&lt;/&gt;</div>
+            <h3>Full-Stack Development</h3>
+            <p>I build web apps and REST APIs with Python, Flask, FastAPI, and SQL, and deploy them with Docker, Podman, and Nginx.</p>
+          </article>
+
+          <article class="feature">
+            <div class="icon" aria-hidden="true">&Sigma;</div>
+            <h3>Data and Machine Learning</h3>
+            <p>I use Pandas, Scikit-learn, and PyTorch to clean data, train models, and turn results into clear recommendations.</p>
+          </article>
+
+          <article class="feature">
+            <div class="icon" aria-hidden="true">&#9733;</div>
+            <h3>Leadership and Community</h3>
+            <p>As President of Women in Computing (ACM-W) at UW-Madison, I lead a 20+ member board that organized 35+ events last year.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Featured content -->
+    <section id="work-experience" class="featured">
+      <div class="container">
+        <h2 class="section-title">Work Experience</h2>
+        <p class="section-lede">Software Engineer Intern at Eagle Wireless, Summer 2026</p>
+
+        <div class="featured-body">
+          <div class="media">
+            <img src="images/work-experience.jpeg" alt="Photo from my software engineering internship at Eagle Wireless">
+          </div>
+          <div class="featured-text">
+            <p>During my Summer 2026 software engineering internship at Eagle Wireless, I built internal web applications that replaced manual production workflows. I handled every layer, from database design and APIs to testing and deployment.</p>
+            <ul>
+              <li>Built a full-stack <strong>Inventory Manager</strong> that cut processing time from about 30 minutes to about 2 minutes.</li>
+              <li>Created a <strong>Container Status Monitor</strong> that tracks 25+ containers across 5 Linux hosts in one place.</li>
+              <li>Connected production apps to NetSuite and Inovaxe APIs, automating work across 30+ orders and 60+ units.</li>
+              <li>Wrote 20+ automated tests with Pytest to keep releases reliable.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Two secondary content blocks -->
+    <section id="projects" class="secondary">
+      <div class="container">
+        <h2 class="section-title">More Projects</h2>
+
+        <div class="secondary-grid">
+          <article class="card">
+            <div class="card-text">
+              <h3>Amazon Product Recommender System</h3>
+              <p>I compared SVD and KNN collaborative-filtering models on a Kaggle dataset, tuned them with GridSearchCV to reach a 0.64 RMSE, and built a pipeline that suggests a top-five product list for each user.</p>
+              <p><strong>Tools:</strong> Python, Scikit-learn</p>
+            </div>
+            <div class="card-image img-a" role="img" aria-label="Laptop screen showing analytics charts"></div>
+          </article>
+
+          <article class="card">
+            <div class="card-text">
+              <h3>E-Commerce Application</h3>
+              <p>I designed a layered Java backend for sign-in, shopping carts, and orders, using DAO and service patterns to keep database code separate from application logic.</p>
+              <p><strong>Tools:</strong> Java, JDBC, MySQL</p>
+            </div>
+            <div class="card-image img-b" role="img" aria-label="Person paying with a card at a checkout terminal"></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Call to action -->
+    <section id="cta" class="cta">
+      <div class="container cta-inner">
+        <h2 class="section-title">Heard enough?</h2>
+        <p class="section-lede">I'm open to software engineering and data internship opportunities. I'd love to hear from you.</p>
+        <a class="btn btn-accent" href="mailto:goelriya245@gmail.com">Email Riya about opportunities</a>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer id="contact" class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-left">
+        <p class="brand">Riya Goel<span class="dot">.</span></p>
+        <p>Hero and project photos from <a href="https://unsplash.com/photos/macbook-pro-showing-programming-language-xrVDYZRGdw4">Unsplash</a>. Work experience photo by Riya Goel.</p>
+        <p>&copy; 2026 Riya Goel. Built for LIS 351 at UW-Madison.</p>
+      </div>
+
+      <div class="footer-cols">
+        <nav class="footer-col" aria-label="Footer">
+          <h2>Explore</h2>
+          <ul>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#work-experience">Work Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+          </ul>
+        </nav>
+
+        <section class="footer-col">
+          <h2>Connect</h2>
+          <ul>
+            <li><a href="https://www.linkedin.com/in/riyagoel8">Riya Goel on LinkedIn</a></li>
+            <li><a href="mailto:goelriya245@gmail.com">Email: goelriya245@gmail.com</a></li>
+          </ul>
+        </section>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
